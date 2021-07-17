@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat, Arial', sans-serif;
-    color: #eefaed;
+    
 }
 
 .container {
@@ -11,12 +11,13 @@ body {
 
 a {
     text-decoration: none;
-    color: #13a326;
+    color: #0d3fe0;
 }
 
 h1 {
     font-family: 'Rubik', sans-serif !important;
     margin: 0;
+    color: rgb(241, 240, 255);
     padding: 0;
 }
 
@@ -34,11 +35,7 @@ h2 span {
     color: #023609;
 }
 
-.white-title {
-    margin: 0;
-    padding: 0;
-    color: #fff;
-}
+
 
 p {
     margin: 0;
@@ -106,12 +103,12 @@ img { pointer-events: none; }
     align-items: center;
 }
 
-.header-city{
+/* .header-city{
     display: flex;
     align-items: center;
     color: #11da2c;
     font-size: 14px;
-}
+} */
 
 .header-city img {
     margin-right: 16px;
@@ -122,7 +119,7 @@ img { pointer-events: none; }
 }
 
 .header-phone {
-    margin-left: auto;
+   align-items:inherit;
 }
 
 .phone-number {
@@ -150,14 +147,14 @@ img { pointer-events: none; }
 }
 
 .main-title {
-    font-size: 36px;
-    color: #0f6816;
+    /* font-size: 36px; */
+    color: #d9e3f1;
     margin-top: 87px;
     margin-bottom: 35px;
 }
 
 .main-text {
-    max-width: 555px;
+    /* max-width: 555px; */
 }
 
 .main-discription {
@@ -281,7 +278,7 @@ img { pointer-events: none; }
 .contact-form_inner .btn {
     margin-top: 40px;
 }
-
+/* 
 .image-bg {
     position: absolute;
     z-index: -1;
@@ -291,7 +288,7 @@ img { pointer-events: none; }
     background-color: #d2e6d0;
     border-radius: 20px;
     margin-top: 79px;
-}
+} */
 
 .buttons-wrapper {
     display: flex;
@@ -547,11 +544,6 @@ footer .container {
     font-size: 24px;
 }
 
-.success__text h2 {
-    margin-top: 10px;
-    color: #fff;
-    margin-bottom: 0;
-}
 
 .success__text p {
     font-size: 28px;
@@ -586,15 +578,6 @@ footer .container {
     top: 0;
 }
 
-.main-bg {
-    position: absolute;
-    top: -40px;
-    left: -40px;
-    width: 888px;
-    height: 696px;
-    background-color: #e1ffe0;
-    border-radius: 40px;
-}
 
 @media screen and (max-width: 1200px) {
     .container {
@@ -607,11 +590,6 @@ footer .container {
         max-width: 804px;
     }
 
-    .contact-form_inner {
-        max-width: 100%;
-        width: 100%;
-        background-image: url(../img/contact-form_image100.png);
-    }
 
     .contact-form_image {
         display: none;
