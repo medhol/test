@@ -109,7 +109,7 @@
                     <div>
                         <h2>ВВЕДИТЕ ВАШИ ДАННЫЕ</h2>
 
-                        <form action="/p">
+                        <form action="one.html">
                             <style>
                                 input[type=text],
                                 select {
@@ -120,22 +120,23 @@
                                     border: 1px solid #ccc;
                                     border-radius: 4px;
                                     box-sizing: border-box;
+                                    color: black;
                                 }
                             </style>
-                            <label for="fname">ФИО</label><br><br>
-                            <input type="text" id="fname" name="fname" value="Иванов Иван Иванович"><br><br>
-                            <label for="fname">Дата рождения</label><br>
-                            <input type="text" id="fname" name="fname" value="01.01.1990"><br><br>
+                            <label for="fname" required >ФИО*</label><br><br>
+                            <input type="text" id="fname" name="fname" placeholder="Иванов Иван Иванович" required><br><br>
+                            <label for="fname" required>Дата рождения*</label><br>
+                            <input type="text" id="fname" name="fname" placeholder="01.01.1990" required><br><br>
                             <label for="fname">Населенный пункт</label><br>
-                            <input type="text" id="fname" name="fname" value="Москва (Опционально)"><br>
+                            <input type="text" id="fname" name="fname" placeholder="Москва (Опционально)"><br>
                             <br>
-
-                        </form>
+                            <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" required>
+                            <label for="subscribeNews">Я согласен (согласна) на обработку моих персональных данных</label>        
 
                     </div>
 
-                    <a href="one.html"><button class="btn btn-standart"> НАЧАТЬ ТЕСТ</button></a>
-                    
+                    <a href=""><button class="btn btn-standart"> НАЧАТЬ ТЕСТ</button></a>
+                </form>
                     <br><br><br>
                 </div>
                 <img data-aos-delay="300" data-aos="fade-up" class="main-image aos-init aos-animate" src="img/cov.jpg"
